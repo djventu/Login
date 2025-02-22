@@ -1,0 +1,112 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.form-container .login-container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-container .login-container > h2{
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.form-container .login-container > p,
+.form-container .login-container > span{
+    text-align: center;
+    color: #0099ff;
+}
+
+.form-container .login-container label{
+    display: block;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.form-container .login-container input.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.form-container .login-container input.input:focus{
+    outline: solid 2px #0099ff;
+}
+
+.form-container .login-container .options{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.form-container .login-container .options a{
+    color: #0099ff;
+    text-decoration: none;
+}
+.form-container .login-container .options a:hover{
+    color: #cf1a1a;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.btn{
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn.btn-login{
+    background-color: #0099ff;
+    color: rgb(0, 0, 0);
+}
+
+.btn.btn-facebook{
+    background-color: #166cb3;
+    color: rgb(255, 255, 255);
+}
+.btn.btn-google{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: solid 1px #000000;
+}
+.btn.btn-twitter{
+    background-color: #8ba1a083;
+    color: rgb(0, 0, 0);
+}
+.form-container .login-container .providers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+
